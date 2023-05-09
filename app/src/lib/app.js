@@ -9,6 +9,7 @@ const getUsersConf = async (user) => {
 
 const postUsersConf = async (user, password) => {
   let retorno = true
+
   return retorno;
 };
 

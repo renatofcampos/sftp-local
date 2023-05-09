@@ -2,9 +2,9 @@ const express = require('express');
 const users = require('./lib/app');
 const app = express();
 
-app.get('/users/:topology', log, users.get);
-app.post('/users/:topology', log, users.post);
-app.delete('/users/:topology', log, users.deleteUser);
+app.get('/users/:topology', users.get);
+app.post('/users/:topology', users.post);
+app.delete('/users/:topology', users.deleteUser);
 
 const port = process.env.PORT || 3000;
 
