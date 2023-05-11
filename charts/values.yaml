@@ -1,0 +1,4 @@
+version: 0.0.1-838aec4f
+volume:
+  path: /PROTHEUS_SISTEMICO/
+  server: 172.19.64.85
